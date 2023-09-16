@@ -11,7 +11,8 @@ function App() {
       </div>
 
       <div className="container my-3">
-        <TextFrom heading="Enter the text to Analyze Blow" />
+        <TextFrom />
+        //heading="Enter Your Text"
       </div>
 
     </>
