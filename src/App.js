@@ -11,8 +11,8 @@ function App() {
       </div>
 
       <div className="container my-3">
-        <TextFrom />
-        //heading="Enter Your Text"
+        <TextFrom heading="Enter Your Text" />
+        
       </div>
 
     </>

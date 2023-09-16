@@ -25,12 +25,12 @@ export default function TextFrom(props) {
     <>
       <div className="container-fluid p-0 from-box">
 
-        <div className="mb-3">
+        <div className="mb-3 w-50">
           <h1 className='text-light'>{props.heading}</h1>
           <textarea className="form-control my-5 bg-dark text-light " id="myBox" rows="8" value={text} onChange={handleOnChange}></textarea>
         </div>
 
-        <div className="col">
+        <div className="mb-3 w-50">
           <h1 className='text-light'>Your text summary</h1>
           <h4 className='text-light'>{text.split(" ").length} words <br/>{text.length} characters</h4>
           <h4 className='text-light'>{0.008 * text.split(" ").length} minutes to read</h4>
@@ -46,7 +46,7 @@ export default function TextFrom(props) {
         
       </div>
 
-      <div className='preview'>
+      <div className='preview w-100 text-center my-5'>
         <h1 className='text-light'>Preview</h1>
         <p className='text-light'>{text}</p>
       </div>
